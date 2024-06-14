@@ -16,20 +16,21 @@
         height: 630px;
     }
     .cartao .nome-personagem {
-        font-size: 15px;
+        font-size: 20px;
         padding: 12px;
     }
     .cartao .descricao-personagem {
-        padding: 35px;
+        padding: 45px;
     }
     .cartao .descricao-personagem .titulo-personagem {
         font-size: 25px;
+        margin-bottom: 5px;
         padding: 10px;
     }
     .cartao .descricao-personagem .texto-personagem {
         max-height: 50px;
         font-size: 20px;
-        padding: 10px;
+        padding: 20px;
     }
 }
 @media(max-width: 950px) {
