@@ -7,8 +7,8 @@
         gap: 10px;
     }
     .btn-seta, .img-btn {
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
 
     }
     .lista-personagens {
@@ -75,8 +75,8 @@
         gap: 10px;
     }
     .btn-seta, .img-btn {
-        width: 20px;
-        height: 20px;
+        width: 40px;
+        height: 40px;
 
     }
     .lista-personagens {
@@ -107,8 +107,8 @@
         gap: 10px;
     }
     .btn-seta, .img-btn {
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
 
     }
     .lista-personagens {
@@ -132,4 +132,40 @@
         max-height: 50px;
         font-size: 12px;
     }
+}
+@media(max-width: 480px) {
+    .cabecalho {
+        padding: 30px 0;
+    }
+    .personagem-slider {
+        padding: 0 15px;
+        gap: 10px;
+    }
+    .btn-seta, .img-btn {
+        width: 30px;
+        height: 30px;
+
+    }
+    .lista-personagens {
+        width: 280px;
+        height: 400px;
+    }
+
+    .cartao .nome-personagem {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .cartao .descricao-personagem {
+        padding: 10px;
+    }
+
+    .cartao .descricao-personagem .titulo-personagem {
+        font-size: 14px;
+    }
+    .cartao .descricao-personagem .texto-personagem {    
+        max-height: 50px;
+        font-size: 12px;
+    }
+
 }
