@@ -1,3 +1,70 @@
+@media(max-width: 1950px) {
+    .cabecalho {
+        padding: 30px 0;
+    }
+    .personagem-slider {
+        padding: 0 15px;
+        gap: 10px;
+    }
+    .btn-seta, .img-btn {
+        width: 60px;
+        height: 60px;
+
+    }
+    .lista-personagens {
+        width: 580px;
+        height: 630px;
+    }
+    .cartao .nome-personagem {
+        font-size: 15px;
+        padding: 12px;
+    }
+    .cartao .descricao-personagem {
+        padding: 35px;
+    }
+    .cartao .descricao-personagem .titulo-personagem {
+        font-size: 25px;
+        padding: 10px;
+    }
+    .cartao .descricao-personagem .texto-personagem {
+        max-height: 50px;
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+@media(max-width: 950px) {
+    .cabecalho {
+        padding: 30px 0;
+    }
+    .personagem-slider {
+        padding: 0 15px;
+        gap: 10px;
+    }
+    .btn-seta, .img-btn {
+        width: 60px;
+        height: 60px;
+
+    }
+    .lista-personagens {
+        width: 380px;
+        height: 430px;
+    }
+    .cartao .nome-personagem {
+        font-size: 15px;
+        padding: 8px;
+    }
+    .cartao .descricao-personagem {
+        padding: 5px;
+    }
+    .cartao .descricao-personagem .titulo-personagem {
+        font-size: 14px;
+        padding: 12px;
+    }
+    .cartao .descricao-personagem .texto-personagem {
+        max-height: 50px;
+        font-size: 16px;
+    }
+}
 @media(max-width: 620px) {
     .cabecalho {
         padding: 30px 0;
@@ -15,14 +82,22 @@
         width: 380px;
         height: 430px;
     }
+    .cartao .nome-personagem {
+        font-size: 18px;
+        padding: 16px;
+    }
+    .cartao .descricao-personagem {
+        padding: 10px;
+    }
     .cartao .descricao-personagem .titulo-personagem {
         font-size: 14px;
     }
     .cartao .descricao-personagem .texto-personagem {
         max-height: 50px;
+        font-size: 14px;
     }
 }
-@media(max-width: 320px) {
+@media(max-width: 480px) {
     .cabecalho {
         padding: 30px 0;
     }
@@ -37,12 +112,23 @@
     }
     .lista-personagens {
         width: 280px;
-        height: 370px;
+        height: 400px;
     }
+
+    .cartao .nome-personagem {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .cartao .descricao-personagem {
+        padding: 10px;
+    }
+
     .cartao .descricao-personagem .titulo-personagem {
         font-size: 14px;
     }
-    .cartao .descricao-personagem .texto-personagem {
+    .cartao .descricao-personagem .texto-personagem {    
         max-height: 50px;
+        font-size: 12px;
     }
 }
